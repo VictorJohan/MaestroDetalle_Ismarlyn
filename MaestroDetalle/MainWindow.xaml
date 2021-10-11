@@ -1,0 +1,15 @@
+﻿<Window x:Class="MaestroDetalle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MaestroDetalle"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid>
+        <Menu Background="LightGray" Height="20" VerticalAlignment="Top">
+            <MenuItem Header="Registrar Zapatos" Click="MenuItem_Click"/>
+            <MenuItem Header="Agregar Zapatos" Click="MenuItem_Click_1"/>
+        </Menu>
+    </Grid>
+</Window>
